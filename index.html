@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fresh Shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <header class="bg-light border-bottom">
+    <div class="container py-3">
+      <div class="row align-items-center g-3">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+          <a href="#" class="brand text-decoration-none"><i class="bi bi-basket2-fill"></i> Super<span class="text-success">Market</span></a>
+        </div>
+        <div class="col-12 col-sm-12 col-md-8 col-lg-5">
+          <div class="search-box"> <i class="bi bi-search"></i>
+            <input type="text" class="form-control" placeholder="Search for products">
+           
+          </div>
+        </div>  
+
+    <nav class="navbar navbar-expand-lg bg-light border-top"> 
+      <div class="container">
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <a href="#" class="btn btn-fresh btn-start btn-sm me-me-lg-3 mb-2 mb-lg-0"><i class="bi bi-grid-fill me-1"></i> All Categories</a>
+          <ul class="navbar-nav small">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><i class="bi bi-house"></i> Home</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Grocery</a></li>
+                <li><a class="dropdown-item" href="#">Vegetables</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><i class="bi bi-shop"></i> Shop</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Shop Grid</a></li>
+                <li><a class="dropdown-item" href="#">Shop List</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><i class="bi bi-shop-window"></i> Stores</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Store List</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><i class="bi bi-list"></i> Mega menu</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Bakery</a></li>
+                <li><a class="dropdown-item" href="#">Dairy</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><i class="bi bi-file-earmark"></i> Pages</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><i class="bi bi-person"></i> Account</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Orders</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+              </ul>
+            </li>
+          </ul>
+        
+        
+          <div class="d-flex justify-content-end align-items-center gap-3 small">
+            <div class="btn-group m-3 p-4">
+  <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    <i class="bi bi-geo-alt"></i><span class="d-none d-sm-inline p-2"> Branches</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Chennai</a></li>
+    <li><a class="dropdown-item" href="#">Coimbatore</a></li>
+    <li><a class="dropdown-item" href="#">Cuddalore</a></li>
+    <li><a class="dropdown-item" href="#">Dharmapuri</a></li>
+    <li><a class="dropdown-item" href="#">Dindigul</a></li>
+    <li><a class="dropdown-item" href="#">Erode</a></li>
+    <li><a class="dropdown-item" href="#">Pattukkottai</a></li>
+    <li><a class="dropdown-item" href="#">Nagapattinam</a></li>
+    <li><a class="dropdown-item" href="#">Kanniyakumari</a></li>
+    <li><a class="dropdown-item" href="#">Namakkal</a></li>
+    <li><a class="dropdown-item" href="#">Bangalore</a></li>
+    <li><a class="dropdown-item" href="#">Pudukottai</a></li>
+    <li><a class="dropdown-item" href="#">Kodaikanal</a></li>
+    <li><a class="dropdown-item" href="#">Ranipet</a></li>
+    <li><a class="dropdown-item" href="#">Salem</a></li>
+    <li><a class="dropdown-item" href="#">Sivaganga</a></li>
+    <li><a class="dropdown-item" href="#">Ooty</a></li>
+    <li><a class="dropdown-item" href="#">Thanjavur</a></li>
+    <li><a class="dropdown-item" href="#">Theni</a></li>
+    <li><a class="dropdown-item" href="#">Thoothukudi</a></li>
+    <li><a class="dropdown-item" href="#">Tiruchirappalli</a></li>
+    <li><a class="dropdown-item" href="#">Tirunelveli</a></li>
+    <li><a class="dropdown-item" href="#">Tirupathur</a></li>
+    <li><a class="dropdown-item" href="#">Mannargudi</a></li>
+    <li><a class="dropdown-item" href="#">Tiruvallur</a></li>
+    <li><a class="dropdown-item" href="#">Tiruvannamalai</a></li>
+    <li><a class="dropdown-item" href="#">Tiruvarur</a></li>
+    <li><a class="dropdown-item" href="#">Vellore</a></li>
+    <li><a class="dropdown-item" href="#">Viluppuram</a></li>
+    <li><a class="dropdown-item" href="#">Virudhunagar</a></li>
+    <li><a class="dropdown-item" href="#">Nilgiris</a></li>
+  </ul>
+
+            <a href="#" class="btn btn-sm btn-success px-3"><i class="bi bi-capslock"></i><span class="d-none d-sm-inline p-2"> Register</span></a>            
+            <a href="#" class="btn btn-sm btn-dark px-3"><i class="bi bi-box-arrow-in-right"></i><span class="d-none d-sm-inline p-2">Sign In</span></a>
+          </div>
+          </div>
+        </div>   
+      </div>
+    </nav>
+    </div>
+    </div>
+  </header>
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./slider/slide-1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./slider/slider-2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./slider/slide-3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  <section class="container section">
+    <div class="section-head">
+      <h5><i class="bi bi-grid-3x3-gap text-fresh"></i> Shop by Categories</h5>
+      <div class="arrows"><button><i class="bi bi-chevron-left"></i></button><button><i class="bi bi-chevron-right"></i></button></div>
+    </div>
+    <div class="row row-cols-2 row-cols-sm-4 row-cols-lg-8 g-3">
+      <div class="col"><a href="#" class="cat-card"><i class="bi bi-cookie"></i><span>Bakery</span></a></div>
+      <div class="col"><a href="#" class="cat-card"><i class="bi bi-cup-straw"></i><span>Dairy</span></a></div>
+      <div class="col"><a href="#" class="cat-card"><i class="bi bi-flower2"></i><span>Vegetables</span></a></div>
+
+
+      <div class="col"><a href="#" class="cat-card"><i class="bi bi-bag"></i><span>Snacks</span></a></div>
+      <div class="col"><a href="#" class="cat-card"><i class="bi bi-balloon-heart"></i><span>Baby Care</span></a></div>
+      <div class="col"><a href="#" class="cat-card"><i class="bi bi-water"></i><span>Fish</span></a></div>
+      <div class="col"><a href="#" class="cat-card"><i class="bi bi-heart"></i><span>Pet Foods</span></a></div>
+      <div class="col"><a href="#" class="cat-card"><i class="bi bi-apple"></i><span>Fruits</span></a></div>
+    </div>
+  </section>
+
+  <section class="container section">
+    <div class="section-head">
+      <h5><i class="bi bi-star text-fresh"></i> FreshCart Popular Products</h5>
+      <div class="arrows"><button><i class="bi bi-chevron-left"></i></button><button><i class="bi bi-chevron-right"></i></button></div>
+    </div>
+    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
+      <div class="col"><div class="product-card">
+        <div class="badges "><span class="tag tag-green">18%</span></div>
+        <div><img src="./products/product-img-1.jpg" alt=""></div>
+        <h6>Haldiram's Sev Bhujia</h6>
+        <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i> <small>4.3 (4)</small></div>
+        <div class="d-flex justify-content-between align-items-center mt-2">
+          <div><span class="price"><i class="bi bi-currency-rupee"></i>24</span> 
+            <del class="old"><i class="bi bi-currency-rupee"></i>34</del>
+          </div>
+          <button class="btn btn-fresh btn-xs"><i class="bi bi-plus"></i> Add</button>
+        </div>
+      </div></div>
+
+      <div class="col">
+        <div class="product-card">
+        <div class="badges"><span class="tag tag-green">18%</span>
+        </div>
+        <div><img src="./products/product-img-2.jpg" alt=""></div>
+        <h6>Nutri Choice</h6>
+        <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i> 
+          <small>4.3 (4)</small>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mt-2">
+          <div><span class="price"><i class="bi bi-currency-rupee"></i>29.75</span> <del class="old"><i class="bi bi-currency-rupee"></i>35</del></div>
+          <button class="btn btn-fresh btn-xs"><i class="bi bi-plus"></i> Add</button>
+        </div>
+      </div></div>
+
+      <div class="col"><div class="product-card">
+        <div class="badges"><span class="tag tag-red">Hot</span><span class="tag tag-green">40%</span></div>
+        <div><img src="./products/product-img-3.jpg" alt=""></div>
+        <h6>5 Start Bites</h6>
+        <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i> <small>4.3 (4)</small></div>
+        <div class="d-flex justify-content-between align-items-center mt-2">
+          <div><span class="price"><i class="bi bi-currency-rupee"></i>3</span> <del class="old"><i class="bi bi-currency-rupee"></i>5</del></div>
+          <button class="btn btn-fresh btn-xs"><i class="bi bi-plus"></i> Add</button>
+        </div>
+      </div></div>
+
+      <div class="col"><div class="product-card">
+        <div class="badges"><span class="tag tag-red">Sale</span><span class="tag tag-green">20%</span></div>
+        <div><img src="./products/product-img-4.jpg" alt=""></div>
+        <h6>Onion Flavour Potato</h6>
+        <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i> <small>4.3 (4)</small></div>
+        <div class="d-flex justify-content-between align-items-center mt-2">
+          <div><span class="price"><i class="bi bi-currency-rupee"></i>19.2</span> <del class="old"><i class="bi bi-currency-rupee"></i>24</del></div>
+          <button class="btn btn-fresh btn-xs"><i class="bi bi-plus"></i> Add</button>
+        </div>
+      </div></div>
+
+      <div class="col"><div class="product-card">
+        <div class="badges"><span class="tag tag-green">30%</span></div>
+        <div><img src="./products/product-img-5.jpg" alt=""></div>
+        <h6>Salted Instant Popcorn </h6>
+        <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i> <small>4.3 (4)</small></div>
+        <div class="d-flex justify-content-between align-items-center mt-2">
+          <div><span class="price"><i class="bi bi-currency-rupee"></i>12.6</span> <del class="old"><i class="bi bi-currency-rupee"></i>18</del></div>
+          <button class="btn btn-fresh btn-xs"><i class="bi bi-plus"></i> Add</button>
+        </div>
+      </div></div>
+
+    </div>
+  </section>
+
+  <section class="container section">
+    <div class="row g-3">
+      <div class="col-md-4"><a href="#" class="promo promo-offer"><span>Offer <i class="bi bi-chevron-right"></i></span></a></div>
+      <div class="col-md-4"><a href="#" class="promo promo-bakery"><span>Fresh Food &amp; Bakery <i class="bi bi-chevron-right"></i></span></a></div>
+      <div class="col-md-4"><a href="#" class="promo promo-fruits"><span>Mixed and Assorted fruits <i class="bi bi-chevron-right"></i></span></a></div>
+    </div>
+  </section>
+
+  <section class="container section">
+    <div class="section-head">
+      <div>
+        <h5 class="mb-0"><i class="bi bi-bag-check text-fresh"></i> Best Selling Products</h5>
+        <small class="text-muted">Find the bestseller products in your area with discount.</small>
+      </div>
+      <div class="arrows"><button><i class="bi bi-chevron-left"></i></button><button><i class="bi bi-chevron-right"></i></button></div>
+    </div>
+    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
+
+      <div class="col"><div class="product-card text-center">
+        <div class="badges"><span class="tag tag-red">Sale</span></div>
+        <div><img src="./products/product-img-6.jpg" alt=""></div>
+        <h6 class="text-start">Blueberry Greek Yogurt </h6>
+        <div class="stars text-start"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i> <small>4.3 (4)</small></div>
+        <div class="d-flex justify-content-between mt-2"><div><span class="price text-danger"><i class="bi bi-currency-rupee"></i>35</span> <del class="old"><i class="bi bi-currency-rupee"></i>55</del></div><small class="in-stock">IN STOCK</small></div>
+        <button class="btn btn-fresh w-100 mt-2">Add to Cart</button>
+      </div></div>
+
+      <div class="col"><div class="product-card text-center">
+        <div class="badges"><span class="tag tag-yellow">60%</span></div>
+        <div><img src="./products/product-img-7.jpg" alt=""></div>
+        <h6 class="text-start">Cheese Slices</h6>
+        <div class="stars text-start"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i> <small>4.3 (4)</small></div>
+        <div class="d-flex justify-content-between mt-2"><div><span class="price text-danger"><i class="bi bi-currency-rupee"></i>3</span> <del class="old"><i class="bi bi-currency-rupee"></i>5</del></div><small class="in-stock">IN STOCK</small></div>
+        <button class="btn btn-fresh w-100 mt-2">Add to Cart</button>
+      </div></div>
+
+      <div class="col"><div class="product-card text-center">
+        <div class="badges"><span class="tag tag-yellow">35%</span></div>
+        <div><img src="./products/product-img-8.jpg" alt=""></div>
+        <h6 class="text-start">Kellogg's Corn Flakes</h6>
+        <div class="stars text-start"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i> <small>4.3 (4)</small></div>
+        <div class="d-flex justify-content-between mt-2"><div><span class="price text-danger"><i class="bi bi-currency-rupee"></i>11.7</span> <del class="old"><i class="bi bi-currency-rupee"></i>18</del></div><small class="in-stock">IN STOCK</small></div>
+        <button class="btn btn-fresh w-100 mt-2">Add to Cart</button>
+      </div></div>
+
+      <div class="col"><div class="product-card text-center">
+        <div class="badges"><span class="tag tag-red">Sale</span></div>
+        <div><img src="./products/product-img-9.jpg" alt=""></div>
+        <h6 class="text-start">Millet Pancake</h6>
+        <div class="stars text-start"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i> <small>4.3 (4)</small></div>
+        <div class="d-flex justify-content-between mt-2"><div><span class="price text-danger"><i class="bi bi-currency-rupee"></i>35</span> <del class="old"><i class="bi bi-currency-rupee"></i>35</del></div><small class="in-stock">IN STOCK</small></div>
+        <button class="btn btn-fresh w-100 mt-2">Add to Cart</button>
+      </div></div>
+
+      <div class="col"><div class="product-card text-center">
+        <div class="badges"><span class="tag tag-yellow">15%</span></div>
+        <div><img src="./products/product-img-10.jpg" alt=""></div>
+        <h6 class="text-start">Amul Butter</h6>
+        <div class="stars text-start"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i> <small>4.3 (4)</small></div>
+        <div class="d-flex justify-content-between mt-2"><div><span class="price text-danger"><i class="bi bi-currency-rupee"></i>21.6</span> <del class="old"><i class="bi bi-currency-rupee"></i>24</del></div><small class="in-stock">IN STOCK</small></div>
+        <button class="btn btn-fresh w-100 mt-2">Add to Cart</button>
+      </div></div>
+
+    </div>
+  </section>
+
+  <div class="offer-strip">SAVE AN EXTRA 15% ON AUTHORSHIP ORDER</div>
+
+
+  <section class="container section">
+    <div class="section-head">
+      <div>
+        <h5 class="mb-0"><i class="bi bi-shop text-fresh"></i> Best stores in Locations</h5>
+        <small class="text-muted">Find the best store products in your area with discount.</small>
+      </div>
+      <a href="#" class="small text-fresh text-decoration-none fw-semibold">All stores <i class="bi bi-chevron-right"></i></a>
+    </div>
+    <div class="row g-3">
+      <div class="col-md-4"><div class="store-card">
+       <img src="./shop/image.png" alt="Company Logo" width="150" height="50">
+        <h6>E-Grocery Shop</h6>
+        <small class="text-muted d-block">Organic &nbsp; Groceries &nbsp; Butcher Shop</small>
+        <small class="d-block mt-2 text-muted">Delivery<br>Pickup available</small>
+        <div class="mt-2"><span class="pill">7.8 mi away</span> <span class="pill">In-store prices</span></div>
+      </div></div>
+      <div class="col-md-4"><div class="store-card">
+        <img src="./shop/image1.jpg" alt="Company Logo" width="150" height="50">
+        <h6>DealShare Mart</h6>
+        <small class="text-muted d-block">Alcohol &nbsp; Groceries</small></br>
+        <small class="d-block mt-2 text-muted">Delivery<br>Pickup available</small>
+        <div class="mt-2"><span class="pill">7.2 mi away</span></div>
+      </div></div>
+      <div class="col-md-4"><div class="store-card">
+        <img src="./shop/images-2.png" alt="Company Logo" width="150" height="50">
+        <h6>DMart</h6>
+        <small class="text-muted d-block">Groceries &nbsp; Bakery &nbsp; Deli</small><br>
+        <small class="d-block mt-2 text-fresh fw-semibold">Delivery by 10:30pm</small>
+        <small class="d-block text-muted">Pickup available</small>
+        <div class="mt-2"><span class="pill">6.3 mi away</span></div>
+      </div></div>
+    </div>
+  </section>
+
+
+  <section class="container section">
+    <div class="section-head">
+      <div>
+        <h5 class="mb-0"><i class="bi bi-square text-fresh"></i> Our most popular recipes</h5>
+        <small class="text-muted">Check out most popular recipes of all time.</small>
+      </div>
+      <a href="#" class="btn btn-fresh text-center">View all recipes</a>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3 text-center">
+
+      <div class="col"><article class="recipe">
+        <div class="recipe-img r1"></div>
+        <small class="text-fresh d-block mt-2 fw-bold">Recipes</small>
+        <h6 class="fw-bold">Harissa Chickpeas with Whipped Feta</h6>
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, ipsum ac pretium consequat, diam dui malesuada nu...</p>
+        <small class="text-muted"><i class="bi bi-clock"></i> 12 min</small>
+      </article></div>
+
+      <div class="col"><article class="recipe">
+        <div class="recipe-img r2"></div>
+        <small class="text-fresh d-block mt-2 fw-bold">Retailer</small>
+        <h6 class="fw-bold">Almond Butter Chocolate Chip Zucchini Bars</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, ipsum ac pretium consequat, diam dui malesuada nu...</p>
+        <small class="text-muted"><i class="bi bi-clock"></i> 8 min</small>
+      </article></div>
+
+      <div class="col"><article class="recipe">
+        <div class="recipe-img r3"></div>
+        <small class="text-fresh d-block mt-2 fw-bold">Recipes</small>
+        <h6 class="fw-bold">Spicy Shrimp Tacos Garlic Cilantro Lime Slaw</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, ipsum ac pretium consequat, diam dui malesuada nu...</p>
+        <small class="text-muted"><i class="bi bi-clock"></i> 5 min</small>
+      </article></div>
+
+      <div class="col"><article class="recipe">
+        <div class="recipe-img r4"></div>
+        <small class="text-fresh d-block mt-2 fw-bold">Retailer</small>
+        <h6 class="fw-bold">Red Chile Chicken Tacos with Creamy Corn</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, ipsum ac pretium consequat, diam dui malesuada nu...</p>
+        <small class="text-muted"><i class="bi bi-clock"></i> 9 min</small>
+      </article></div>
+
+    </div>
+  </section>
+  <section class="container section">
+    <div class="row g-0 features">
+      <div class="col-md-4 feature"><i class="bi bi-clock-history"></i>
+        <h6>Cheapest basket 25 years running</h6>
+        <p>Get your order delivered to your doorstep at the earliest from FreshCart pickup stores near you.</p>
+      </div>
+      <div class="col-md-4 feature"><i class="bi bi-gift"></i>
+        <h6>Best Prices &amp; Offers</h6>
+        <p>Cheaper prices than your local supermarket, great cashback offers to top it off.</p>
+      </div>
+      <div class="col-md-4 feature"><i class="bi bi-box-seam"></i>
+        <h6>Wide Assortment</h6>
+        <p>Choose from 5000+ products across food, personal care, household &amp; other categories</p>
+      </div>
+      <div class="col-md-4 feature"><i class="bi bi-phone"></i>
+        <h6>Shop with our app</h6>
+        <p>Shop on the go with our app for <a href="#">tablet</a> and <a href="#">mobile</a>. Get live order tracking. Get latest feature updates</p>
+      </div>
+      <div class="col-md-4 feature"><i class="bi bi-truck"></i>
+        <h6>Want your shopping today?</h6>
+        <p>Choose from our award winning <a href="#">Express delivery</a> or collection options.</p>
+      </div>
+      <div class="col-md-4 feature"><i class="bi bi-arrow-repeat"></i>
+        <h6>Easy Returns/Refund</h6>
+        <p>Not satisfied with a product? Return it at the doorstep &amp; get a refund within hours. No questions asked <a href="#">policy</a>.</p>
+      </div>
+    </div>
+  </section>
+<section class="areas text-light">
+  <div class="container">
+
+    <div class="section-head">
+      <div>
+        <h5 class="mb-0">
+          <i class="bi bi-geo-alt text-fresh"></i>
+          Areas we deliver to
+        </h5>
+
+        <small class="text-light">
+          Find the best store products in your area with discount.
+        </small>
+      </div>
+
+      <a href="#" class="btn btn-fresh btn-sm">
+        View All City
+      </a>
+    </div>
+
+    <ul class="area-list" id="areaList"></ul>
+
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+
+const areas = [
+  "Ariyalur",
+  "Chengalpattu",
+  "Chennai",
+  "Coimbatore",
+  "Cuddalore",
+  "Dharmapuri",
+  "Dindigul",
+  "Erode",
+  "Kallakurichi",
+  "Kancheepuram",
+  "Karur",
+  "Krishnagiri",
+  "Madurai",
+  "Mayiladuthurai",
+  "Nagapattinam",
+  "Kanniyakumari",
+  "Namakkal",
+  "Perambalur",
+  "Pudukottai",
+  "Ramanathapuram",
+  "Ranipet",
+  "Salem",
+  "Sivaganga",
+  "Tenkasi",
+  "Thanjavur",
+  "Theni",
+  "Thoothukudi",
+  "Tiruchirappalli",
+  "Tirunelveli",
+  "Tirupathur",
+  "Tiruppur",
+  "Tiruvallur",
+  "Tiruvannamalai",
+  "Tiruvarur",
+  "Vellore",
+  "Viluppuram",
+  "Virudhunagar",
+  "The Nilgiris"
+];
+
+const areaList = document.getElementById("areaList");
+
+areas.forEach((area, index) => {
+
+  const li = document.createElement("li");
+
+  li.innerHTML = `
+    <a href="#">
+      <i class="bi bi-geo-alt"></i>
+      ${index + 1}. ${area}
+    </a>
+  `;
+
+  areaList.appendChild(li);
+
+});
+
+</script>
+</body>
+</html>
